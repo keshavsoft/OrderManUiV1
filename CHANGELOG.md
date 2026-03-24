@@ -1,0 +1,31 @@
+# 📦 Changelog
+
+All notable changes to this extension are documented here.
+
+---
+
+## [1.1.20] - 2026-03-23
+
+### ✅ Added
+
+* from server started
+* Folder structure creation (Config, Data, V1, etc.)
+* Basic Webview UI
+* Command: ext openUI
+
+### 🔧 Improved
+
+* UI state switching after schema creation
+* Project initialization flow
+
+### 🐞 Fixed
+
+* Minor setup inconsistencies
+
+### 🔮 Planned
+
+* Improve API generation logic
+* Add better schema handling
+* Enhance developer workflow
+
+---

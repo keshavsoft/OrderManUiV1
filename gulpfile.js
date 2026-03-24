@@ -298,6 +298,8 @@ function buildForTable(inTableSchema, done) {
 
     templateData = ForTemplateData({ inCommonColumns: inTableSchema });
 
+    // console.log("TEMPLATE DATA:", JSON.stringify(templateData, null, 2));
+
     return gulp.series(
         "copy:dist:css",
         "copy:dist:html",

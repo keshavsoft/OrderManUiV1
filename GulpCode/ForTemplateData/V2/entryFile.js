@@ -60,6 +60,8 @@ const StartFunc = ({ inCommonColumns }) => {
 
     // templateData.PrimarykeyTables = inCommonColumns.PrimarykeyTables;
     templateData.PrimarykeyTables = preparePrimarykeyTablesArray({ inPrimarykeyTableNamesAsArray: inCommonColumns.PrimarykeyTableNames });
+    templateData.DependantTables = ["Keshav", "Nalam"];
+
     // templateData.Vertical = inCommonColumns.Vertical;
 
     return templateData;

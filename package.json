@@ -1,10 +1,11 @@
 {
     "name": "OrderManUiV1",
-    "version": "1.1.19",
+    "version": "1.1.20",
     "description": "Volt - Bootstrap 5 Dashboard",
     "main": "gulpfile.js",
     "author": "Themesberg",
     "scripts": {
+        "serve": "node --inspect ./node_modules/gulp/bin/gulp.js serve",
         "dist": "gulp build:dist"
     },
     "keywords": [
